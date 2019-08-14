@@ -1,0 +1,41 @@
+{
+    "name": "generate-pdfs",
+    "version": "1.0.0",
+    "description": "Service for creating PDFs",
+    "main": "src/index.js",
+    "scripts": {
+        "build": "babel src -d dist --copy-files",
+        "dev": "nodemon --exec babel-node src/index.js",
+        "start": "node dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/p-herbert/generate-pdfs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/p-herbert/generate-pdfs/issues"
+    },
+    "homepage": "https://github.com/p-herbert/generate-pdfs#readme",
+    "dependencies": {
+        "@babel/runtime": "^7.4.4",
+        "body-parser": "^1.19.0",
+        "compression": "^1.7.4",
+        "config": "^3.1.0",
+        "express": "^4.16.4",
+        "puppeteer": "^1.18.0",
+        "underscore": "^1.9.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.4",
+        "@babel/node": "^7.2.2",
+        "@babel/plugin-transform-runtime": "^7.4.4",
+        "@babel/preset-env": "^7.4.4",
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.16.0",
+        "eslint-plugin-prettier": "^3.0.1",
+        "nodemon": "^1.19.0",
+        "prettier": "^1.17.0"
+    }
+}

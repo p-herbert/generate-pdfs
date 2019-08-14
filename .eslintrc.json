@@ -1,0 +1,60 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "parser": "babel-eslint",
+    "plugins": ["prettier"],
+    "extends": ["eslint:recommended"],
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
+    },
+    "globals": {
+        "require": true,
+        "module": true,
+        "process": true,
+        "Buffer": true,
+        "config": true,
+        "__dirname": true
+    },
+    "rules": {
+        "linebreak-style": ["warn", "unix"],
+        "quotes": ["warn", "single"],
+        "semi": ["warn", "always"],
+        "no-process-env": 0,
+        "no-unused-vars": "warn",
+        "no-console": 0,
+        "block-spacing": 1,
+        "key-spacing": [1, { "mode": "minimum" }],
+        "keyword-spacing": 1,
+        "space-infix-ops": 1,
+        "comma-spacing": 1,
+        "prefer-const": 1,
+        "no-var": 1,
+        "spaced-comment": "warn",
+        "arrow-parens": ["warn", "as-needed"],
+        "prefer-arrow-callback": "warn",
+        "prefer-template": "warn",
+        "no-useless-concat": "warn",
+        "comma-dangle": ["warn", "always-multiline"],
+        "object-shorthand": ["warn", "always"],
+        "curly": "warn",
+        "eol-last": 2,
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 2,
+                "maxEOF": 1
+            }
+        ],
+        "no-plusplus": [
+            "error",
+            {
+                "allowForLoopAfterthoughts": true
+            }
+        ],
+        "prettier/prettier": "error"
+    }
+}

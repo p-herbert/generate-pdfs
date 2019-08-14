@@ -1,0 +1,37 @@
+# Directories #
+###############
+__data__
+node_modules
+src
+tmp
+
+# Files #
+#########
+Dockerfile*
+docker-compose*
+README.md
+build.sh
+travis-deploy.pem.enc
+
+# Dotfiles #
+############
+.babelrc
+.eslintrc.json
+.prettierignore
+.prettierrc.json
+.git
+.gitignore
+.dockerignore
+.travis.yml
+
+# Log #
+#######
+npm-debug.log
+
+# Index files #
+###############
+tags
+
+# OS generated files #
+######################
+*.DS_Store
