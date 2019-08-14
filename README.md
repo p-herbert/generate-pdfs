@@ -7,14 +7,14 @@ Service for generating PDFs.
 - **PDF**
 	- `POST /pdf`
         - `body` **Object**
-        - `html` **String**
-        - `margin` **Object**
-            - `top` **String**
-            - `left` **String**
-            - `bottom` **String**
-            - `right` **String**
-        - `height` **String**
-        - `width` **String**
+            - `html` **String**
+            - `margin` **Object**
+                - `top` **String**
+                - `left` **String**
+                - `bottom` **String**
+                - `right` **String**
+            - `height` **String**
+            - `width` **String**
 
 ### Running the service locally
 
